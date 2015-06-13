@@ -1,0 +1,487 @@
+/*@media only screen and (max-width:1200px) {
+	body{
+		background: #ccc;
+	}
+}*/
+
+
+@media only screen and (max-width:991px) {
+	body{
+		/*background: red;*/
+		background: #fff;
+	}
+	
+	/*Главная Страница*/
+	/**/
+	/*Главная Страница конец*/
+
+
+	/*Страница системы безопасности адаптация*/
+	#sb-tovar-pager{
+		margin: 30px 0 55px 50%;
+	}
+	/*Страница системы безопасности адаптация конец*/
+
+
+	/*Страница блога адаптация*/
+	/**/
+	/*Страница блога адаптация конец*/
+
+
+	/*Страница Записи блога адаптация*/
+	.blog-single-titledate{
+		top: 25px!important;
+	}
+		.blog-single-otherpost h4{
+			padding-right: 20px!important;
+		}
+		.blog-single-otherpost p{
+			padding-right: 20px!important;
+		}
+	/*Страница Записи блога адаптация конец*/
+
+
+	/*Страница товара адаптация*/
+	/**/
+	/*Страница товара адаптация конец*/
+
+
+	/*Страница тахографов адаптация*/
+	/**/
+	/*Страница тахографов адаптация конец*/
+}
+
+
+@media only screen and (max-width:769px) {
+	body{
+		/*background: green;*/
+		background: #fff;
+	}
+	/*Главная Страница*/
+	/**/
+	/*Главная Страница конец*/
+	
+
+	/*Страница системы безопасности адаптация*/
+	#sidebar-menu h3{
+		background: #000 url(../img/accardeon-slide-arrowdown.png) 95% no-repeat!important;
+	}
+	.sb-tovar-item{
+		margin-left: 0;
+	}
+		.sb-tovar-item .sb-tovar-img{
+			width: 50%;
+			height: auto;
+			float: none;
+			margin: 25px 25%;
+		}
+		.sb-tovar-item .sb-tovar-title{
+			margin: 10px 15px;
+		}
+		.sb-tovar-item .sb-tovar-brand{
+			margin-left: 15px;
+		}
+		.sb-tovar-item .sb-tovar-razr{
+			margin-left: 15px;
+		}
+		.sb-tovar-item .sb-tovar-chuvst{
+			margin-left: 15px;
+		}
+		.sb-tovar-item .sv-tovar-poe{
+			margin-left: 15px;
+		}
+		.sb-tovar-item .sb-tovar-discr{
+			padding-left: 15px;
+		}
+
+		#sb-tovar-pager{
+			display: table;
+			margin: 10px auto 20px auto;
+		}
+	/*Страница системы безопасности адаптация конец*/
+	
+
+	/*Страница блога адаптация*/
+	#blog-pager{
+		display: table!important;
+		margin: 10px auto 20px auto!important;
+	}
+	/*Страница блога адаптация конец*/
+
+
+	/*Страница блога записи адаптация*/
+	.blog-single-titledate{
+		display: none;
+	}
+	.blog-single-title-xs{
+		display: block!important;
+		margin-top: 20px;
+		text-align: center;
+		font: bold 20px MyriadProRegular;
+	}
+	/*Страница блога записи адаптация конец*/
+
+
+	/*Страница товара адаптация*/
+	.sb-tovar-vnutr{
+		margin-top: 15px!important;
+		margin-left: 0!important;
+		margin-bottom: 20px!important;
+	}
+		.sb-item-tovar-left{
+			float: none!important;
+			width: 100%!important;
+			margin-right: 0!important;
+			text-align: center!important;
+		}
+
+		a#zoom1{
+			margin-left: 20px!important;
+		}
+
+		.sb-tovar-item-buy{
+			margin-bottom: 20px;
+		}
+
+		.sb-price-modal{
+			width: 100%!important;
+			left: 0!important;
+			padding: 20px 0 10px 0!important;
+		}
+			.sb-price-modal h3{
+				font: bold 14px MyriadProRegular!important;
+			}
+
+			.sb-price-modal p{
+				width: 98%!important;
+			}
+
+		.sb-price-modal-exit{
+			right: 10px!important;
+			top: 10px!important;
+		}
+
+		.sb-tovar-item-social{
+			margin-top: 10px!important;
+			margin-left: 300px!important;
+		}
+	
+	.sb-tovar-haract-main{
+		margin-left: 0!important;
+	}
+
+	.similar-products-main{
+		display: none;
+	}
+	/*Страница товара адаптация конец*/
+
+
+	/*Страница тахографов адаптация*/
+
+	.tah-bottom-text{
+		padding: 5px!important;
+	}
+	.tah-forma form p input{
+		width: 90%!important;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.tah-forma form p textarea{
+		width: 90%!important;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	/*Страница тахографов адаптация конец*/
+	
+}
+
+
+@media only screen and (max-width:480px) {
+	
+	body{
+		/*background: yellow;*/
+		background: #fff;
+	}
+
+	/*Главная Страница*/
+	/**/
+	/*Главная Страница конец*/
+
+	/*Страница системы безопасности адаптация*/
+	#sidebar-menu h3{
+		background: #000 url(../img/accardeon-slide-arrowdown.png) 95% no-repeat!important;
+	}
+	.sb-tovar-item{
+		margin-left: 0;
+	}
+		.sb-tovar-item .sb-tovar-img{
+			width: 80%;
+			height: auto;
+			float: none;
+			margin: 10px 10%;
+		}
+		.sb-tovar-item .sb-tovar-title{
+			margin: 10px 15px;
+		}
+		.sb-tovar-item .sb-tovar-brand{
+			margin-left: 15px;
+		}
+		.sb-tovar-item .sb-tovar-razr{
+			margin-left: 15px;
+		}
+		.sb-tovar-item .sb-tovar-chuvst{
+			margin-left: 15px;
+		}
+		.sb-tovar-item .sv-tovar-poe{
+			margin-left: 15px;
+		}
+		.sb-tovar-item .sb-tovar-discr{
+			padding-left: 15px;
+		}
+
+		#sb-tovar-pager{
+			display: table;
+			margin: 10px auto 20px auto;
+		}
+	/*Страница системы безопасности адаптация конец*/
+
+
+	/*Страница блога адаптация*/
+	#blog-pager{
+		display: table!important;
+		margin: 10px auto 20px auto!important;
+	}
+	/*Страница блога адаптация конец*/
+
+	
+	/*Страница блога записи адаптация*/
+	.blog-single-titledate{
+		display: none;
+	}
+	.blog-single-title-xs{
+		display: block!important;
+		margin-top: 20px;
+		text-align: center;
+		font: bold 20px MyriadProRegular;
+	}
+	/*Страница блога записи адаптация конец*/
+
+
+	/*Страница товара адаптация*/
+	.sb-tovar-vnutr{
+		margin-top: 15px!important;
+		margin-left: 0!important;
+		margin-bottom: 20px!important;
+	}
+		.sb-item-tovar-left{
+			float: none!important;
+			width: 100%!important;
+			margin-right: 0!important;
+			text-align: center!important;
+		}
+
+		a#zoom1{
+			margin-left: 20px!important;
+		}
+
+		.sb-tovar-item-buy{
+			margin-bottom: 20px;
+		}
+
+		.sb-price-modal{
+			width: 100%!important;
+			left: 0!important;
+			padding: 20px 0 10px 0!important;
+		}
+			.sb-price-modal h3{
+				font: bold 14px MyriadProRegular!important;
+			}
+
+			.sb-price-modal p{
+				width: 98%!important;
+			}
+
+		.sb-price-modal-exit{
+			right: 10px!important;
+			top: 10px!important;
+		}
+
+		.sb-tovar-item-social{
+			display: none;
+		}
+	
+	.sb-tovar-haract-main{
+		margin-left: 0!important;
+	}
+
+	.similar-products-main{
+		display: none;
+	}
+	/*Страница товара адаптация конец*/
+
+
+	/*Страница тахографов адаптация*/
+
+	.tah-bottom-text{
+		padding: 5px!important;
+	}
+	.tah-forma form p input{
+		width: 90%!important;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.tah-forma form p textarea{
+		width: 90%!important;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	/*Страница тахографов адаптация конец*/
+}
+
+
+@media only screen and (max-width:320px) {
+	body{
+		background: #fff;
+		width: 100%;
+	}
+
+	/*Главная Страница*/
+	/**/
+	/*Главная Страница конец*/
+
+	/*Страница системы безопасности адаптация*/
+	#sidebar-menu h3{
+		background: #000 url(../img/accardeon-slide-arrowdown.png) 270px no-repeat!important;
+	}
+	.sb-tovar-item{
+		margin-left: 0;
+	}
+		.sb-tovar-item .sb-tovar-img{
+			width: 80%;
+			height: auto;
+			float: none;
+			margin: 10px 10%;
+		}
+		.sb-tovar-item .sb-tovar-title{
+			margin: 10px 15px;
+		}
+		.sb-tovar-item .sb-tovar-brand{
+			margin-left: 15px;
+		}
+		.sb-tovar-item .sb-tovar-razr{
+			margin-left: 15px;
+		}
+		.sb-tovar-item .sb-tovar-chuvst{
+			margin-left: 15px;
+		}
+		.sb-tovar-item .sv-tovar-poe{
+			margin-left: 15px;
+		}
+		.sb-tovar-item .sb-tovar-discr{
+			padding-left: 15px;
+		}
+
+		#sb-tovar-pager{
+			display: table;
+			margin: 10px auto 20px auto;
+		}
+	/*Страница системы безопасности адаптация конец*/
+
+
+	/*Страница блога адаптация*/
+	#blog-pager{
+		display: table!important;
+		margin: 10px auto 20px auto!important;
+	}
+	/*Страница блога адаптация конец*/
+
+	
+	/*Страница блога записи адаптация*/
+	.blog-single-titledate{
+		display: none;
+	}
+	.blog-single-title-xs{
+		display: block!important;
+		margin-top: 20px;
+		text-align: center;
+		font: bold 20px MyriadProRegular;
+	}
+	.blog-single-otherpost h4{
+		padding-right: 20px!important;
+	}
+	.blog-single-otherpost p{
+		padding-right: 20px!important;
+	}
+	/*Страница блога записи адаптация конец*/
+
+
+	/*Страница товара адаптация*/
+	.sb-tovar-vnutr{
+		margin-top: 15px!important;
+		margin-left: 0!important;
+		margin-bottom: 20px!important;
+	}
+		.sb-item-tovar-left{
+			float: none!important;
+			width: 100%!important;
+			margin-right: 0!important;
+			text-align: center!important;
+		}
+
+		a#zoom1{
+			margin-left: 20px!important;
+		}
+
+		.sb-tovar-item-buy{
+			margin-bottom: 20px;
+		}
+
+		.sb-price-modal{
+			width: 100%!important;
+			left: 0!important;
+			padding: 20px 0 10px 0!important;
+		}
+			.sb-price-modal h3{
+				font: bold 14px MyriadProRegular!important;
+			}
+
+			.sb-price-modal p{
+				width: 98%!important;
+			}
+
+		.sb-price-modal-exit{
+			right: 10px!important;
+			top: 10px!important;
+		}
+
+		.sb-tovar-item-social{
+			display: none;
+		}
+	
+	.sb-tovar-haract-main{
+		margin-left: 0!important;
+	}
+
+	.similar-products-main{
+		display: none;
+	}
+	/*Страница товара адаптация конец*/
+
+
+	/*Страница тахографов адаптация*/
+
+	.tah-bottom-text{
+		padding: 5px!important;
+	}
+	.tah-forma form p input{
+		width: 90%!important;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.tah-forma form p textarea{
+		width: 90%!important;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	/*Страница тахографов адаптация конец*/
+}
